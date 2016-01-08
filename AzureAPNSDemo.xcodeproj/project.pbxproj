@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521BA2541C3FE5100061BF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA2531C3FE5100061BF94 /* main.m */; };
+		521BA2571C3FE5100061BF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA2561C3FE5100061BF94 /* AppDelegate.m */; };
+		521BA25A1C3FE5100061BF94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA2591C3FE5100061BF94 /* ViewController.m */; };
+		521BA25D1C3FE5100061BF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BA25B1C3FE5100061BF94 /* Main.storyboard */; };
+		521BA25F1C3FE5100061BF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BA25E1C3FE5100061BF94 /* Assets.xcassets */; };
+		521BA2621C3FE5100061BF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BA2601C3FE5100061BF94 /* LaunchScreen.storyboard */; };
+		521BA26D1C3FE5100061BF94 /* AzureAPNSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA26C1C3FE5100061BF94 /* AzureAPNSDemoTests.m */; };
+		521BA2781C3FE5110061BF94 /* AzureAPNSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA2771C3FE5110061BF94 /* AzureAPNSDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521BA2691C3FE5100061BF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521BA2471C3FE5100061BF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521BA24E1C3FE5100061BF94;
+			remoteInfo = AzureAPNSDemo;
+		};
+		521BA2741C3FE5110061BF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521BA2471C3FE5100061BF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521BA24E1C3FE5100061BF94;
+			remoteInfo = AzureAPNSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521BA24F1C3FE5100061BF94 /* AzureAPNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureAPNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521BA2531C3FE5100061BF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521BA2551C3FE5100061BF94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521BA2561C3FE5100061BF94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521BA2581C3FE5100061BF94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		521BA2591C3FE5100061BF94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		521BA25C1C3FE5100061BF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521BA25E1C3FE5100061BF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521BA2611C3FE5100061BF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521BA2631C3FE5100061BF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BA2681C3FE5100061BF94 /* AzureAPNSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureAPNSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521BA26C1C3FE5100061BF94 /* AzureAPNSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzureAPNSDemoTests.m; sourceTree = "<group>"; };
+		521BA26E1C3FE5100061BF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BA2731C3FE5110061BF94 /* AzureAPNSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureAPNSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521BA2771C3FE5110061BF94 /* AzureAPNSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzureAPNSDemoUITests.m; sourceTree = "<group>"; };
+		521BA2791C3FE5110061BF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521BA24C1C3FE5100061BF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA2651C3FE5100061BF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA2701C3FE5110061BF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521BA2461C3FE5100061BF94 = {
+			isa = PBXGroup;
+			children = (
+				521BA2511C3FE5100061BF94 /* AzureAPNSDemo */,
+				521BA26B1C3FE5100061BF94 /* AzureAPNSDemoTests */,
+				521BA2761C3FE5110061BF94 /* AzureAPNSDemoUITests */,
+				521BA2501C3FE5100061BF94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521BA2501C3FE5100061BF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521BA24F1C3FE5100061BF94 /* AzureAPNSDemo.app */,
+				521BA2681C3FE5100061BF94 /* AzureAPNSDemoTests.xctest */,
+				521BA2731C3FE5110061BF94 /* AzureAPNSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521BA2511C3FE5100061BF94 /* AzureAPNSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				521BA2551C3FE5100061BF94 /* AppDelegate.h */,
+				521BA2561C3FE5100061BF94 /* AppDelegate.m */,
+				521BA2581C3FE5100061BF94 /* ViewController.h */,
+				521BA2591C3FE5100061BF94 /* ViewController.m */,
+				521BA25B1C3FE5100061BF94 /* Main.storyboard */,
+				521BA25E1C3FE5100061BF94 /* Assets.xcassets */,
+				521BA2601C3FE5100061BF94 /* LaunchScreen.storyboard */,
+				521BA2631C3FE5100061BF94 /* Info.plist */,
+				521BA2521C3FE5100061BF94 /* Supporting Files */,
+			);
+			path = AzureAPNSDemo;
+			sourceTree = "<group>";
+		};
+		521BA2521C3FE5100061BF94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521BA2531C3FE5100061BF94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521BA26B1C3FE5100061BF94 /* AzureAPNSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				521BA26C1C3FE5100061BF94 /* AzureAPNSDemoTests.m */,
+				521BA26E1C3FE5100061BF94 /* Info.plist */,
+			);
+			path = AzureAPNSDemoTests;
+			sourceTree = "<group>";
+		};
+		521BA2761C3FE5110061BF94 /* AzureAPNSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521BA2771C3FE5110061BF94 /* AzureAPNSDemoUITests.m */,
+				521BA2791C3FE5110061BF94 /* Info.plist */,
+			);
+			path = AzureAPNSDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521BA24E1C3FE5100061BF94 /* AzureAPNSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521BA27C1C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemo" */;
+			buildPhases = (
+				521BA24B1C3FE5100061BF94 /* Sources */,
+				521BA24C1C3FE5100061BF94 /* Frameworks */,
+				521BA24D1C3FE5100061BF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzureAPNSDemo;
+			productName = AzureAPNSDemo;
+			productReference = 521BA24F1C3FE5100061BF94 /* AzureAPNSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521BA2671C3FE5100061BF94 /* AzureAPNSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521BA27F1C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoTests" */;
+			buildPhases = (
+				521BA2641C3FE5100061BF94 /* Sources */,
+				521BA2651C3FE5100061BF94 /* Frameworks */,
+				521BA2661C3FE5100061BF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521BA26A1C3FE5100061BF94 /* PBXTargetDependency */,
+			);
+			name = AzureAPNSDemoTests;
+			productName = AzureAPNSDemoTests;
+			productReference = 521BA2681C3FE5100061BF94 /* AzureAPNSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521BA2721C3FE5110061BF94 /* AzureAPNSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521BA2821C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoUITests" */;
+			buildPhases = (
+				521BA26F1C3FE5110061BF94 /* Sources */,
+				521BA2701C3FE5110061BF94 /* Frameworks */,
+				521BA2711C3FE5110061BF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521BA2751C3FE5110061BF94 /* PBXTargetDependency */,
+			);
+			name = AzureAPNSDemoUITests;
+			productName = AzureAPNSDemoUITests;
+			productReference = 521BA2731C3FE5110061BF94 /* AzureAPNSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521BA2471C3FE5100061BF94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Neuron;
+				TargetAttributes = {
+					521BA24E1C3FE5100061BF94 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					521BA2671C3FE5100061BF94 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 521BA24E1C3FE5100061BF94;
+					};
+					521BA2721C3FE5110061BF94 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 521BA24E1C3FE5100061BF94;
+					};
+				};
+			};
+			buildConfigurationList = 521BA24A1C3FE5100061BF94 /* Build configuration list for PBXProject "AzureAPNSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521BA2461C3FE5100061BF94;
+			productRefGroup = 521BA2501C3FE5100061BF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521BA24E1C3FE5100061BF94 /* AzureAPNSDemo */,
+				521BA2671C3FE5100061BF94 /* AzureAPNSDemoTests */,
+				521BA2721C3FE5110061BF94 /* AzureAPNSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521BA24D1C3FE5100061BF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BA2621C3FE5100061BF94 /* LaunchScreen.storyboard in Resources */,
+				521BA25F1C3FE5100061BF94 /* Assets.xcassets in Resources */,
+				521BA25D1C3FE5100061BF94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA2661C3FE5100061BF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA2711C3FE5110061BF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521BA24B1C3FE5100061BF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BA25A1C3FE5100061BF94 /* ViewController.m in Sources */,
+				521BA2571C3FE5100061BF94 /* AppDelegate.m in Sources */,
+				521BA2541C3FE5100061BF94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA2641C3FE5100061BF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BA26D1C3FE5100061BF94 /* AzureAPNSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA26F1C3FE5110061BF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BA2781C3FE5110061BF94 /* AzureAPNSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521BA26A1C3FE5100061BF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521BA24E1C3FE5100061BF94 /* AzureAPNSDemo */;
+			targetProxy = 521BA2691C3FE5100061BF94 /* PBXContainerItemProxy */;
+		};
+		521BA2751C3FE5110061BF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521BA24E1C3FE5100061BF94 /* AzureAPNSDemo */;
+			targetProxy = 521BA2741C3FE5110061BF94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521BA25B1C3FE5100061BF94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521BA25C1C3FE5100061BF94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521BA2601C3FE5100061BF94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521BA2611C3FE5100061BF94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521BA27A1C3FE5110061BF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		521BA27B1C3FE5110061BF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521BA27D1C3FE5110061BF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AzureAPNSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		521BA27E1C3FE5110061BF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AzureAPNSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		521BA2801C3FE5110061BF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AzureAPNSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzureAPNSDemo.app/AzureAPNSDemo";
+			};
+			name = Debug;
+		};
+		521BA2811C3FE5110061BF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AzureAPNSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzureAPNSDemo.app/AzureAPNSDemo";
+			};
+			name = Release;
+		};
+		521BA2831C3FE5110061BF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AzureAPNSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AzureAPNSDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		521BA2841C3FE5110061BF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AzureAPNSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AzureAPNSDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521BA24A1C3FE5100061BF94 /* Build configuration list for PBXProject "AzureAPNSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521BA27A1C3FE5110061BF94 /* Debug */,
+				521BA27B1C3FE5110061BF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521BA27C1C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521BA27D1C3FE5110061BF94 /* Debug */,
+				521BA27E1C3FE5110061BF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521BA27F1C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521BA2801C3FE5110061BF94 /* Debug */,
+				521BA2811C3FE5110061BF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521BA2821C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521BA2831C3FE5110061BF94 /* Debug */,
+				521BA2841C3FE5110061BF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521BA2471C3FE5100061BF94 /* Project object */;
+}
