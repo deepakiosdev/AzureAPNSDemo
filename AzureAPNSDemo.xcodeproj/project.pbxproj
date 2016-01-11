@@ -15,6 +15,7 @@
 		521BA2621C3FE5100061BF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BA2601C3FE5100061BF94 /* LaunchScreen.storyboard */; };
 		521BA26D1C3FE5100061BF94 /* AzureAPNSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA26C1C3FE5100061BF94 /* AzureAPNSDemoTests.m */; };
 		521BA2781C3FE5110061BF94 /* AzureAPNSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BA2771C3FE5110061BF94 /* AzureAPNSDemoUITests.m */; };
+		521BA2861C3FF1B20061BF94 /* WindowsAzureMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521BA2851C3FF1B20061BF94 /* WindowsAzureMessaging.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		521BA2731C3FE5110061BF94 /* AzureAPNSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureAPNSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521BA2771C3FE5110061BF94 /* AzureAPNSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzureAPNSDemoUITests.m; sourceTree = "<group>"; };
 		521BA2791C3FE5110061BF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BA2851C3FF1B20061BF94 /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMessaging.framework; sourceTree = "<group>"; };
+		521BA2871C3FF2070061BF94 /* HubInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HubInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521BA2861C3FF1B20061BF94 /* WindowsAzureMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,7 @@
 				521BA2601C3FE5100061BF94 /* LaunchScreen.storyboard */,
 				521BA2631C3FE5100061BF94 /* Info.plist */,
 				521BA2521C3FE5100061BF94 /* Supporting Files */,
+				521BA2871C3FF2070061BF94 /* HubInfo.h */,
 			);
 			path = AzureAPNSDemo;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 		521BA2521C3FE5100061BF94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				521BA2851C3FF1B20061BF94 /* WindowsAzureMessaging.framework */,
 				521BA2531C3FE5100061BF94 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,6 +213,7 @@
 				TargetAttributes = {
 					521BA24E1C3FE5100061BF94 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6TSCRVSS2Q;
 					};
 					521BA2671C3FE5100061BF94 = {
 						CreatedOnToolsVersion = 7.2;
@@ -344,7 +351,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Creamer (J36Q632FGN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Creamer (J36Q632FGN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,9 +371,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3ba1d386-df84-4a8d-9e1c-62ccfb80851e";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +396,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Creamer (J36Q632FGN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Creamer (J36Q632FGN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -400,8 +410,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3ba1d386-df84-4a8d-9e1c-62ccfb80851e";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +422,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Creamer (J36Q632FGN)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AzureAPNSDemo",
+				);
 				INFOPLIST_FILE = AzureAPNSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.housingpartners.Homeswapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3ba1d386-df84-4a8d-9e1c-62ccfb80851e";
 			};
 			name = Debug;
 		};
@@ -422,10 +441,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Creamer (J36Q632FGN)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AzureAPNSDemo",
+				);
 				INFOPLIST_FILE = AzureAPNSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Neuron.AzureAPNSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.housingpartners.Homeswapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3ba1d386-df84-4a8d-9e1c-62ccfb80851e";
 			};
 			name = Release;
 		};
@@ -496,6 +523,7 @@
 				521BA27E1C3FE5110061BF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521BA27F1C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +532,7 @@
 				521BA2811C3FE5110061BF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521BA2821C3FE5110061BF94 /* Build configuration list for PBXNativeTarget "AzureAPNSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +541,7 @@
 				521BA2841C3FE5110061BF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
